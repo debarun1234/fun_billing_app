@@ -3,11 +3,11 @@ import { MenuItem, BillCalculation } from '@/types'
 export const ESTABLISHMENT = {
   name: "DeBaRuN's Dhaba & Fine Dining",
   tagline: '"Eat like a king, pay like one too."',
-  address: 'No. 42, Behind the ATM that never works,\nKoramangala 5th Block, Bengaluru - 560095',
-  phone: '+91 98765 43210',
-  gstin: '29DBRNS9999R1ZX',
+  address: 'Plot 404, Location Not Found,\nSomewhere in the Cloud - 000000',
+  phone: '+91 99999 99999 (Please do not call)',
+  gstin: '29NOTAREALGST1N',
   owner: 'DeBaRuN (Yes, the caps are intentional. Don\'t ask.)',
-  fssai: '11224403000123',
+  fssai: '00000000000000 (We wash our hands... sometimes)',
 }
 
 export const MENU: MenuItem[] = [

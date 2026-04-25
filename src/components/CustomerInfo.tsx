@@ -61,13 +61,18 @@ export default function CustomerInfo({
               <MdRestaurant className="text-brand-gold text-lg" />
               Table Number
             </label>
-            <input
-              type="text"
-              placeholder="Table #"
+            <select
               value={tableNumber}
               onChange={(e) => setTableNumber(e.target.value)}
-              className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-brand-dark text-base focus:outline-none focus:border-brand-gold transition-colors"
-            />
+              className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-brand-dark text-base focus:outline-none focus:border-brand-gold transition-colors bg-white appearance-none cursor-pointer"
+            >
+              <option value="" disabled>Select Table</option>
+              {Array.from({ length: 10 }).map((_, i) => (
+                <option key={i + 1} value={String(i + 1)}>
+                  Table {i + 1}
+                </option>
+              ))}
+            </select>
           </div>
 
           {/* Number of Guests */}

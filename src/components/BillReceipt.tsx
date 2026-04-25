@@ -199,7 +199,7 @@ export default function BillReceipt({
                 color: '#666',
               }}
             >
-              <span>SGST @ 9%</span>
+              <span>SGST @ 9% <span style={{ fontSize: '8px', fontStyle: 'italic' }}>(Totally Fake Tax)</span></span>
               <span>
                 ₹{billData.sgst.toLocaleString('en-IN', {
                   minimumFractionDigits: 2,
@@ -217,7 +217,7 @@ export default function BillReceipt({
                 borderBottom: '1px solid #999',
               }}
             >
-              <span>CGST @ 9%</span>
+              <span>CGST @ 9% <span style={{ fontSize: '8px', fontStyle: 'italic' }}>(Please don't arrest us)</span></span>
               <span>
                 ₹{billData.cgst.toLocaleString('en-IN', {
                   minimumFractionDigits: 2,
@@ -310,8 +310,9 @@ export default function BillReceipt({
                 maximumFractionDigits: 2,
               })}
             </div>
-            <div style={{ fontSize: '7px', marginTop: '2px', color: '#666' }}>
-              (DeBaRuN cries paying this to the government)
+            <div style={{ fontSize: '7px', marginTop: '4px', color: '#666', textAlign: 'center' }}>
+              (DeBaRuN cries paying this to the government)<br/>
+              <strong>Disclaimer for the IT Dept:</strong> This whole bill is a joke, please don't raid us!
             </div>
           </div>
 

@@ -139,7 +139,7 @@ export default function BillingApp() {
             />
           )}
 
-          {currentStep !== 'receipt' && (
+          {currentStep !== 'receipt' && currentStep !== 'info' && (
             <div className="mt-8 flex gap-4 justify-center">
               <Button
                 isDisabled={currentStep === 'info'}

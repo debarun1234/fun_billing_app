@@ -1,6 +1,6 @@
 'use client'
 
-import { Card, Button } from '@heroui/react'
+import { Button } from '@heroui/react'
 import { MdPrint } from '@react-icons/all-files/md/MdPrint'
 import { OrderItem, BillCalculation } from '@/types'
 import { ESTABLISHMENT, MENU } from '@/utils/constants'

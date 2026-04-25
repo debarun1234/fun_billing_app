@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Card, Button, Tabs, Tab } from '@heroui/react'
+import { Button } from '@heroui/react'
 import Header from './Header'
 import CustomerInfo from './CustomerInfo'
 import MenuSection from './MenuSection'

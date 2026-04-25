@@ -1,6 +1,6 @@
 'use client'
 
-import { Card, Input, Button } from '@heroui/react'
+import { Card } from '@heroui/react'
 import { MdPerson } from '@react-icons/all-files/md/MdPerson'
 import { MdRestaurant } from '@react-icons/all-files/md/MdRestaurant'
 import { MdPeople } from '@react-icons/all-files/md/MdPeople'

@@ -310,9 +310,9 @@ export default function BillReceipt({
                 maximumFractionDigits: 2,
               })}
             </div>
-            <div style={{ fontSize: '7px', marginTop: '4px', color: '#666', textAlign: 'center' }}>
+            <div style={{ fontSize: '7px', marginTop: '4px', color: '#fffefeff', textAlign: 'center' }}>
               (DeBaRuN cries paying this to the government)<br />
-              <strong>Disclaimer for the IT Dept:</strong> This whole bill is a joke, please don't raid us!
+              <strong>Disclaimer: This whole bill is for fun!!!</strong>
             </div>
           </div>
 
@@ -330,9 +330,8 @@ export default function BillReceipt({
               ⭐ ⭐ ⭐
             </div>
             <div style={{ fontWeight: 'bold', fontSize: '11px', color: '#d9534f', marginBottom: '6px' }}>
-              ⚠️ DISCLAIMER FOR IT DEPT & GOVT: ⚠️<br/>
-              This whole bill and establishment are a complete joke.
-              Please don't raid us!
+              ⚠️ DISCLAIMER: ⚠️<br />
+              This whole bill and establishment is for fun and boredom relief.
             </div>
             <div style={{ fontWeight: 'bold' }}>Thank you for dining with us!</div>
             <div style={{ fontSize: '8px', fontStyle: 'italic', marginTop: '2px' }}>

@@ -18,6 +18,9 @@ export default function Header() {
         <p>{ESTABLISHMENT.address.split('\n')[0]}</p>
         <p>{ESTABLISHMENT.address.split('\n')[1]}</p>
         <p className="pt-2 font-mono">📞 {ESTABLISHMENT.phone}</p>
+        <p style={{ fontSize: '12px', marginTop: '4px', color: '#fffefeff', textAlign: 'center' }}>
+          <b>Disclaimer:</b> This whole bill and establishment is for fun!!!
+        </p>
       </div>
     </div>
   )

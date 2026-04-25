@@ -310,7 +310,7 @@ export default function BillReceipt({
                 maximumFractionDigits: 2,
               })}
             </div>
-            <div style={{ fontSize: '7px', marginTop: '4px', color: '#666', textAlign: 'center' }}>
+            <div style={{ fontSize: '7px', marginTop: '4px', color: '#fffefeff', textAlign: 'center' }}>
               (DeBaRuN cries paying this to the government)<br />
               <strong>Disclaimer: This whole bill is for fun!!!</strong>
             </div>

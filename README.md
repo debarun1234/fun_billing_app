@@ -1,5 +1,9 @@
 # 🍛 DeBaRuN's Legendary Billing System
 
+[![Deploy Next.js site to Pages](https://github.com/debarun1234/fun_billing_app/actions/workflows/deploy.yml/badge.svg)](https://github.com/debarun1234/fun_billing_app/actions/workflows/deploy.yml)
+
+**[🌐 Visit the Live Website here!](https://debarun1234.github.io/fun_billing_app/)**
+
 > _Where food is great, bills are real, and the owner cries in GST_
 
 A modern, delightfully humorous web-based billing system for "DeBaRuN's Dhaba & Fine Dining" built with **Next.js 14**, **TypeScript**, **React**, **HeroUI v3.0.3**, and **Tailwind CSS**.

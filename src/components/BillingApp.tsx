@@ -142,7 +142,6 @@ export default function BillingApp() {
           {currentStep !== 'receipt' && currentStep !== 'info' && (
             <div className="mt-8 flex gap-4 justify-center">
               <Button
-                isDisabled={currentStep === 'info'}
                 onPress={() => {
                   const steps: Step[] = ['info', 'menu', 'summary', 'tip']
                   const currentIndex = steps.indexOf(currentStep)
@@ -158,10 +157,7 @@ export default function BillingApp() {
               </Button>
               <Button
                 onPress={handleContinue}
-                isDisabled={
-                  (currentStep === 'info' && !customerName.trim()) ||
-                  (currentStep === 'menu' && orderItems.length === 0)
-                }
+                isDisabled={currentStep === 'menu' && orderItems.length === 0}
                 size="lg"
                 className="bg-gradient-to-r from-brand-warm to-brand-gold text-white font-bold"
               >

@@ -1,6 +1,6 @@
 'use client'
 
-import { Card, Button } from '@heroui/react'
+import { Card } from '@heroui/react'
 import { TIP_OPTIONS } from '@/utils/constants'
 import { BillCalculation } from '@/types'
 

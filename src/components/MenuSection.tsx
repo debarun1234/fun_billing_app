@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Card, Button, Input } from '@heroui/react'
+
 import { MENU } from '@/utils/constants'
 import { OrderItem } from '@/types'
 import MenuItem from './MenuItem'

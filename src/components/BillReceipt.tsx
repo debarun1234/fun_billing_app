@@ -312,7 +312,7 @@ export default function BillReceipt({
             </div>
             <div style={{ fontSize: '7px', marginTop: '4px', color: '#666', textAlign: 'center' }}>
               (DeBaRuN cries paying this to the government)<br />
-              <strong>Disclaimer his whole bill is a joke, please don't raid us!
+              <strong>Disclaimer: This whole bill is for fun!!!</strong>
             </div>
           </div>
 
